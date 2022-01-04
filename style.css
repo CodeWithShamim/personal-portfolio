@@ -122,7 +122,9 @@ body{
 }
 
 
-
+section h1{
+margin-left: 20px;
+}
 .box-model-div{
     display: flex;
     margin: 50px;
@@ -174,4 +176,7 @@ footer p{
     background-color: #F8F8F8;
     padding: 30px;
 }
+
+
+
 
