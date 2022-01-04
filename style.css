@@ -7,13 +7,13 @@ body{
 
 .section1{
     display: flex;
-    background-image: url("top-banner.png");
+    background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
 }
 .section2{
     display: flex;
     margin-top:100px;
-    background-image: url("dream-bg.png");
+    background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 
@@ -115,7 +115,7 @@ body{
 .section3{
 
     margin: 100px 0px;
-    background-image: url("exp-bg.png");
+    background-image: url("images/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
     
@@ -130,9 +130,11 @@ body{
 }
 
 .box-model1{
-    background-color: #13f55e;
+    background-color: #ffffff;
     box-shadow: 30px;
-    border-left: 10px solid tomato;
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato, orange);
+    border-image-slice: 1;
     margin: 5px;
     padding: 40px;
     box-shadow: 10px -10px 15px gray;
@@ -145,9 +147,11 @@ body{
 }
 
 .box-model2{
-    background-color: #13f55e;
+    background-color: #ffffff;
     box-shadow: 30px;
-    border-left: 10px solid tomato;
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
     margin: 5px;
     padding: 40px;
     box-shadow: 10px -10px 40px gray;
@@ -162,5 +166,12 @@ body{
 .h3-title{
     color: orange;
     font-size: 25px;
+}
+
+
+footer p{
+    text-align: center;
+    background-color: #F8F8F8;
+    padding: 30px;
 }
 
