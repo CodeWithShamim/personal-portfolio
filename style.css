@@ -133,7 +133,6 @@ margin-left: 20px;
 
 .box-model1{
     background-color: #ffffff;
-    box-shadow: 30px;
     border-left: 10px solid;
     border-image: linear-gradient(tomato, orange);
     border-image-slice: 1;
@@ -144,13 +143,12 @@ margin-left: 20px;
 }
 
 .box-model1:hover{
-    box-shadow: 10px 10px 15px rgb(255, 125, 125);
+    box-shadow: 10px 10px 15px #F8F8F8;
 
 }
 
 .box-model2{
     background-color: #ffffff;
-    box-shadow: 30px;
     border-left: 10px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
@@ -161,7 +159,7 @@ margin-left: 20px;
 }
 
 .box-model2:hover{
-    box-shadow: 10px 10px 15px rgb(255, 125, 125);
+    box-shadow: 10px 10px 15px #F8F8F8;
 
 }
 
